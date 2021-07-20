@@ -14,10 +14,10 @@ export function Header() {
       h="20"
       mx="auto"
       mt="4"
-      px="24"
+      px="6"
       align="center"
     >
-      <Text fontSize="3xl" fontWeight="bold" letterSpacing="tight" w="256">
+      <Text fontSize="3xl" fontWeight="bold" letterSpacing="tight" w="64">
         dashgo
         <Text as="span" color="pink.500" ml="1">
           .
@@ -29,7 +29,7 @@ export function Header() {
         flex="1"
         py="4"
         px="8"
-        ml="48"
+        ml="8"
         maxWidth="400"
         alignSelf="center"
         color="gray.200"
