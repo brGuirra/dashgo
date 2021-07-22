@@ -26,14 +26,16 @@ export function Header() {
       px="6"
       align="center"
     >
-      <IconButton
-        aria-label="Open navigation"
-        icon={<Icon as={RiMenuLine} />}
-        fontSize="24"
-        mr="2"
-        variant="unstyled"
-        onClick={onOpen}
-      ></IconButton>
+      {!isWideMode && (
+        <IconButton
+          aria-label="Open navigation"
+          icon={<Icon as={RiMenuLine} />}
+          fontSize="24"
+          mr="2"
+          variant="unstyled"
+          onClick={onOpen}
+        ></IconButton>
+      )}
 
       <Logo />
 
